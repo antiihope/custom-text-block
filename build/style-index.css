@@ -1,1 +1,45 @@
-.wp-block-create-block-boilerplate{background-color:#21759b;color:#fff;padding:2px}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.8.1_webpack@5.89.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.4.31_webpack@5.89.0/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.69.5_webpack@5.89.0/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-blocks-course-text-box {
+  padding: 14px;
+  border-radius: 20px;
+}
+.wp-block-blocks-course-text-box.text-box-align-right {
+  text-align: right;
+}
+.wp-block-blocks-course-text-box.text-box-align-left {
+  text-align: left;
+}
+.wp-block-blocks-course-text-box.text-box-align-center {
+  text-align: center;
+}
+.wp-block-blocks-course-text-box.is-style-rounded {
+  border-radius: 20px;
+}
+.wp-block-blocks-course-text-box.is-style-squared {
+  border-radius: 0px;
+}
+.wp-block-blocks-course-text-box.has-shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-10 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-20 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-30 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.wp-block-blocks-course-text-box.has-shadow.shadow-opacity-40 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

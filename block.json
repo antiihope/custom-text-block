@@ -1,15 +1,75 @@
 {
 	"apiVersion": 2,
-	"name": "create-block/boilerplate",
-	"title": "Boilerplate",
-	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"name": "blocks-course/text-box",
+	"title": "Text box",
+	"category": "text",
+	"icon": "text-page",
+	"description": "A box of text.",
+	"keywords": [ "text", "box", "textbox", "paragraph" ],
+	"textdomain": "text-box",
 	"supports": {
-		"html": false
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"gradients": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		}
 	},
-	"textdomain": "boilerplate",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",
-	"style": "file:./build/style-index.css"
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "",
+			"source": "html",
+			"selector": "h2"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#2A1313"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#F8FF22"
+		},
+		"shadow": {
+			"type": "boolean",
+			"default": false
+		},
+		"shadowOpacity": {
+			"type": "number",
+			"default": 30
+		}
+	},
+	"styles": [
+		{
+			"name": "squared",
+			"label": "Squared"
+		},
+		{
+			"name": "rounded",
+			"label": "Rounded",
+			"isDefault": true
+		}
+	],
+	"example": {
+		"attributes": {
+			"text": "this is some text",
+			"textAlign": "center",
+			"backgroundColor": "#f0f0f0",
+			"textColor": "#000000",
+			"shadow": true,
+			"shadowOpacity": 30
+		}
+	}
 }
